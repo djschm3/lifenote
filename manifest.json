@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "LifeNote",
+    "version": "1.0",
+    "description": "A Chrome extension for quickly capturing and organizing notes.",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab", "storage", "tabs"],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
